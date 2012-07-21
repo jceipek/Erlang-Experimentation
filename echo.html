@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="http://cdn.sockjs.org/sockjs-0.2.min.js"></script>  
+  <script src="echo.js"></script>
+  <style>
+      .box {
+          border: 1px dashed black;
+          border-radius: 4px;
+          -moz-border-radius: 4px;
+          width: 400px;
+          display: block;
+          height: 300px;
+          float: left;
+      }
+      #output {
+          border-color: grey;
+          overflow:auto;
+      }
+      #input {
+          vertical-align: text-top;
+          -moz-outline-style: none;
+          outline-style: none;
+          outline-width: 0px;
+          outline-color: -moz-use-text-color;
+      }
+      body {
+          background-color: #F0F0F0;
+      }
+  </style>
+</head><body lang="en">
+    <h2>SockJS-erlang Sim example</h2>
+    <form id="form">
+      <input id="input" autocomplete="off" class="box"
+             value="type something here" />
+    </form>
+    <div id="output" class="box"></div>
+</body></html>
