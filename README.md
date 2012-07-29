@@ -1,4 +1,4 @@
 Erlang-Experimentation
 ======================
 
-Testing out Erlang
+Trying out Erlang
